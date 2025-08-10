@@ -38,7 +38,7 @@ class LLMHandler:
 
 
         self.client = Groq(api_key=self.groq_api_key)
-        self.model = "llama-3.1-70b-versatile"
+        self.model = "llama-3.3-70b-versatile"
 
         # Initialize cache in session state
         if 'llm_cache' not in st.session_state:
